@@ -1,0 +1,32 @@
+[
+{
+"name":"Panaca",
+"score":"1.0",
+"intro":"Ofrece experiencias únicas a partir de la diversión, la interactividad con los animales y el campo.",
+"photo":"https://quindioaventurero.co/wp-content/uploads/2019/04/panaca-min.jpg"
+},
+{
+"name":"Parque del Café",
+"score":"2.0",
+"intro":"Granaja temática",
+"photo":"https://panaca.com.co/Content/img/nuestroParque/Jorge_Ballen.jpg"
+},
+{
+"name":"Parque Jaime Duque",
+"score":"3.0",
+"intro":"Granaja temática",
+"photo":"https://panaca.com.co/Content/img/nuestroParque/Jorge_Ballen.jpg"
+},
+{
+"name":"Parque Tayrona",
+"score":"5.0",
+"intro":"Granaja temática",
+"photo":"https://panaca.com.co/Content/img/nuestroParque/Jorge_Ballen.jpg"
+},
+{
+"name":"Salitre Mágico",
+"score":"4.0",
+"intro":"Granaja temática",
+"photo":"https://panaca.com.co/Content/img/nuestroParque/Jorge_Ballen.jpg"
+}
+]

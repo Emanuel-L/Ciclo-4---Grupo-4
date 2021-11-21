@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/edit_message"
+        android:inputType="textPersonName"
+        android:text="PARQUE TAYRONA"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Temp: Entre -12 y 38 °C"
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView2"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="316dp"
+        android:layout_height="44dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Recomendación: Protector solar."
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="569dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView"
+        android:layout_width="334dp"
+        android:layout_height="195dp"
+        android:layout_marginTop="16dp"
+        android:text="El Parque Nacional Tayrona, en el norte de Colombia, es una gran zona protegida que abarca las laderas de la Sierra Nevada de Santa Marta en las zonas adyacentes a la costa del Caribe. Es conocida por sus caletas cubiertas por palmeras, lagunas costeras, selva tropical y una abundante biodiversidad."
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView2"
+        android:layout_width="330dp"
+        android:layout_height="95dp"
+        android:layout_marginTop="12dp"
+        android:text="Ubicado en las estribaciones de la Sierra Nevada de Santa Marta en el Caribe de Colombia."
+        app:layout_constraintTop_toBottomOf="@+id/multiAutoCompleteTextView"
+        tools:layout_editor_absoluteX="45dp" />
+
+    <MultiAutoCompleteTextView
+        android:id="@+id/multiAutoCompleteTextView3"
+        android:layout_width="320dp"
+        android:layout_height="92dp"
+        android:layout_marginTop="16dp"
+        android:text="Lugares de interés: El Cantil, Punta Granate, el Morrito Largo e Isla Aguja."
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4"
+        tools:layout_editor_absoluteX="45dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
