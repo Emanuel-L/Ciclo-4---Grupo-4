@@ -13,7 +13,7 @@ class PlacesAdapter (private val PlacesList: ArrayList<PlaceItem>): RecyclerView
 
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        val view = LayoutInflater.from(parent.context).inflate(R.layout.card_view_place_item, parent,false)
+        val view = LayoutInflater.from(parent.context).inflate(R.layout.car_new_place_parque_del_cafe, parent,false)
         return ViewHolder(view)
     }
 
